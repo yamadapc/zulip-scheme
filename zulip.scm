@@ -81,7 +81,7 @@
   (zulip-send-message conn "private" content "" to))
 
 ; Sends a stream message over zulip
-(define (zulip-stream conn subject content to)
+(define (zulip-stream-message conn subject content to)
   (zulip-send-message conn "stream" content subject to))
 
 ; Makes an authentiated `method` HTTP request to the zulip API, sending a
