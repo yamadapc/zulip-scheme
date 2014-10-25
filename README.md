@@ -10,7 +10,7 @@ Only the functions for sending messages are wrapped.
 
 (zulip-private-message my-conn
                        "Hey there, I'm written in Scheme... Hahahaha"
-                       ("some-cool-user@google.com"))
+                       '("some-cool-user@google.com"))
 ```
 
 ## License
